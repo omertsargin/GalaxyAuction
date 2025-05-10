@@ -49,11 +49,7 @@ my-ts-app/yarn-error.log*
 **/ehthumbs.db
 **/Thumbs.db
 
-# Cursor IDE
-.cursor/
-**/.cursor/
-.cursor/rules/
-**/.cursor/rules/
+
 
 **/_ReSharper*/
 **/*.[Rr]e[Ss]harper
