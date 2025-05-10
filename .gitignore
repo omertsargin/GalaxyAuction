@@ -48,9 +48,7 @@ my-ts-app/yarn-error.log*
 **/.Trashes
 **/ehthumbs.db
 **/Thumbs.db
-
-
-
+**/.*/
 **/_ReSharper*/
 **/*.[Rr]e[Ss]harper
 **/*.suo
@@ -63,4 +61,4 @@ my-ts-app/yarn-error.log*
 **/*.tmp
 **/*.bak
 **/*.swp
-**/*.swo 
+**/*.swo
