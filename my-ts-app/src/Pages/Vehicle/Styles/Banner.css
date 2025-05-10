@@ -1,0 +1,173 @@
+.custom-banner {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+    url("/src/Images/2022-mercedes-maybach-s680-1068x601.jpg") center;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  z-index: 2;
+}
+
+.banner-text-container {
+  max-width: 650px;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.banner-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  letter-spacing: -0.5px;
+  font-family: 'Montserrat', 'Segoe UI', sans-serif;
+}
+
+.banner-title .highlight {
+  color: #ffc107;
+  position: relative;
+  display: inline-block;
+}
+
+.banner-title .highlight::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: #ffc107;
+  bottom: -5px;
+  left: 0;
+  border-radius: 10px;
+  transform: scaleX(0.8);
+  opacity: 0.7;
+}
+
+.banner-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  font-weight: 300;
+  opacity: 0.9;
+  letter-spacing: 0.5px;
+}
+
+.search-container {
+  display: flex;
+  margin: 20px auto 30px;
+  width: 100%;
+  max-width: 500px;
+  height: 50px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.search-input {
+  flex: 1;
+  border: none;
+  padding: 0 25px;
+  font-size: 1rem;
+  outline: none;
+  color: #333;
+}
+
+.search-button {
+  width: 60px;
+  background-color: #ffc107;
+  border: none;
+  color: #333;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-button:hover {
+  background-color: #e5ac00;
+}
+
+.banner-features {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.feature i {
+  font-size: 2rem;
+  color: #ffc107;
+}
+
+.feature span {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .custom-banner {
+    height: 80vh;
+  }
+  
+  .banner-title {
+    font-size: 2.5rem;
+  }
+  
+  .banner-subtitle {
+    font-size: 1rem;
+  }
+  
+  .banner-features {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .feature {
+    flex-direction: row;
+    gap: 15px;
+  }
+}
+
+/* Animation for subtle effects */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.banner-title, .banner-subtitle, .search-container, .banner-features {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.banner-subtitle {
+  animation-delay: 0.2s;
+}
+
+.search-container {
+  animation-delay: 0.4s;
+}
+
+.banner-features {
+  animation-delay: 0.6s;
+}

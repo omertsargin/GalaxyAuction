@@ -1,0 +1,187 @@
+.auction-card {
+  position: relative;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #333;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.auction-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Pasif araçlar için stil */
+.inactive-vehicle {
+  background-color: #f5f5f5;
+  opacity: 0.9;
+}
+
+/* Pasif rozeti */
+.inactive-badge {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #555;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Arama ve filtreleme bölümü için stiller */
+.search-filter-container {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  margin: 30px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.search-filter-container .form-control {
+  border-radius: 50px 0 0 50px;
+  padding: 12px 20px;
+  border: 1px solid #e0e0e0;
+  box-shadow: none;
+}
+
+.search-filter-container .btn {
+  border-radius: 0 50px 50px 0;
+  padding: 12px 20px;
+  background-color: #FFC107;
+  border-color: #FFC107;
+  color: #333;
+}
+
+.search-filter-container .btn:hover {
+  background-color: #e5ac00;
+  border-color: #e5ac00;
+}
+
+/* Araç fotoğrafları için stil */
+.card-image {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.5s ease;
+}
+
+.auction-card:hover .card-image img {
+  transform: scale(1.08);
+}
+
+.card-details {
+  margin-top: 15px;
+  padding: 0 5px;
+}
+
+.card-details h2 {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.card-details p {
+  margin: 8px 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.card-details strong {
+  color: #333;
+  font-weight: 600;
+}
+
+/* Kart içeriği için stiller */
+.card-actions {
+  margin-top: auto;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Detay butonları için stiller */
+.card-actions .btn {
+  transition: all 0.3s ease;
+  padding: 10px 15px;
+  font-weight: 600;
+}
+
+.card-actions .btn-primary {
+  background-color: #FFC107;
+  border-color: #FFC107;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(255, 193, 7, 0.3);
+}
+
+.card-actions .btn-primary:hover {
+  background-color: #e5ac00;
+  border-color: #e5ac00;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(255, 193, 7, 0.4);
+}
+
+/* Sekme menüsü için stil */
+.nav-tabs {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.nav-tabs .nav-link {
+  font-weight: 500;
+  color: #555 !important;
+  border: none;
+  padding: 10px 15px;
+  margin-right: 5px;
+  transition: all 0.3s ease;
+  border-radius: 8px 8px 0 0;
+}
+
+.nav-tabs .nav-link:hover {
+  color: #333 !important;
+  background-color: rgba(255, 193, 7, 0.1);
+}
+
+.nav-tabs .nav-link.active {
+  font-weight: 600;
+  color: #333 !important;
+  border: none;
+  background-color: transparent;
+  border-bottom: 3px solid #FFC107;
+}
+
+/* Bulunamadı mesajı için stil */
+.col-12.text-center.my-5 h3 {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.col-12.text-center.my-5 p {
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}

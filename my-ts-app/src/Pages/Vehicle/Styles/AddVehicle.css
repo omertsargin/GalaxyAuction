@@ -1,0 +1,145 @@
+.add-vehicle-container {
+  padding: 2rem 0;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.add-vehicle-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.add-vehicle-header {
+  background-color: #ffc107;
+  color: #333;
+  padding: 2rem;
+  text-align: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.add-vehicle-icon {
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.add-vehicle-icon i {
+  font-size: 2rem;
+  color: #ffc107;
+}
+
+.add-vehicle-header h2 {
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.add-vehicle-header p {
+  margin-bottom: 0;
+  opacity: 0.8;
+}
+
+.add-vehicle-form {
+  padding: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.form-group label i {
+  color: #ffc107;
+  margin-right: 0.5rem;
+}
+
+.custom-file-upload {
+  border: 1px dashed #ddd;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.custom-file-upload:hover {
+  border-color: #ffc107;
+  background-color: rgba(255, 193, 7, 0.05);
+}
+
+.custom-file-upload i {
+  font-size: 2rem;
+  color: #ffc107;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.custom-file-upload p {
+  margin-bottom: 0;
+  color: #666;
+}
+
+.preview-image {
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.auction-dates {
+  display: flex;
+  gap: 1rem;
+}
+
+.auction-dates .form-group {
+  flex: 1;
+}
+
+.btn-add-vehicle {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #333;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.btn-add-vehicle:hover {
+  background-color: #e0a800;
+  border-color: #e0a800;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(224, 168, 0, 0.2);
+}
+
+.form-text {
+  color: #888;
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+}
+
+.invalid-feedback {
+  display: block;
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 80%;
+  color: #dc3545;
+} 

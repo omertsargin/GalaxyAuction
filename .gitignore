@@ -1,0 +1,70 @@
+# .NET Core backend
+MyGalaxy_Auction/**/bin/
+MyGalaxy_Auction/**/obj/
+MyGalaxy_Auction/**/.vs/
+MyGalaxy_Auction/**/*.user
+MyGalaxy_Auction/**/*.userosscache
+MyGalaxy_Auction/**/*.suo
+MyGalaxy_Auction/**/*.dbmdl
+MyGalaxy_Auction/**/*.jfm
+MyGalaxy_Auction/**/*.pfx
+MyGalaxy_Auction/**/*.publishsettings
+MyGalaxy_Auction/**/*.min.js
+MyGalaxy_Auction/**/*.min.css
+MyGalaxy_Auction/**/orleans.codegen.cs
+MyGalaxy_Auction/**/appsettings.Development.json
+MyGalaxy_Auction/**/appsettings.Production.json
+MyGalaxy_Auction/**/appsettings.Staging.json
+MyGalaxy_Auction/**/Images/
+MyGalaxy_Auction/**/Logs/
+
+# Local SQLite databases
+**/*.db
+**/*.sqlite
+
+# React/Node.js frontend
+my-ts-app/node_modules/
+my-ts-app/coverage/
+my-ts-app/build/
+my-ts-app/dist/
+my-ts-app/.env
+my-ts-app/.env.local
+my-ts-app/.env.development
+my-ts-app/.env.development.local
+my-ts-app/.env.test.local
+my-ts-app/.env.production.local
+my-ts-app/npm-debug.log*
+my-ts-app/yarn-debug.log*
+my-ts-app/yarn-error.log*
+
+# IDE-specific files
+.vs/
+.vscode/
+.idea/
+**/*.code-workspace
+**/.DS_Store
+**/._.DS_Store
+**/.Spotlight-V100
+**/.Trashes
+**/ehthumbs.db
+**/Thumbs.db
+
+# Cursor IDE
+.cursor/
+**/.cursor/
+.cursor/rules/
+**/.cursor/rules/
+
+**/_ReSharper*/
+**/*.[Rr]e[Ss]harper
+**/*.suo
+**/.JustCode
+**/.cr/
+
+# Temporary files
+**/tmp/
+**/temp/
+**/*.tmp
+**/*.bak
+**/*.swp
+**/*.swo 

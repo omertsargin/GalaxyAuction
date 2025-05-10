@@ -1,0 +1,79 @@
+.profile-container {
+  padding: 1rem 0;
+}
+
+.profile-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.profile-avatar {
+  width: 100px;
+  height: 100px;
+  background-color: #f8f9fa;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+  border: 3px solid #ffc107;
+}
+
+.profile-avatar i {
+  font-size: 3rem;
+  color: #ffc107;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #444;
+}
+
+.input-group {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.input-group-text {
+  background-color: #ffc107;
+  border: none;
+  color: #fff;
+}
+
+.form-control:focus {
+  border-color: #ffc107;
+  box-shadow: 0 0 0 0.25rem rgba(255, 193, 7, 0.25);
+}
+
+.btn-primary {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #333;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #e0a800;
+  border-color: #e0a800;
+  color: #333;
+}
+
+.btn-primary:disabled {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  opacity: 0.65;
+}
+
+.form-text {
+  font-size: 0.8rem;
+} 
